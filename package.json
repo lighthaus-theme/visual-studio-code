@@ -1,0 +1,52 @@
+{
+    "name": "lighthaus-vscode",
+    "displayName": "Lighthaus",
+    "description": "A Lighthaus theme for Visual Studio Code",
+    "version": "1.0.0",
+    "author": {
+    "name": "Adhiraj Sirohi",
+    "email": "contact@lighthaustheme.com"
+  },
+    "homepage": "https://github.com/lighthaus-theme/visual-studio-code",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lighthaus-theme/visual-studio-code"
+  },
+    "bugs": {
+        "url": "https://github.com/lighthaus-theme/visual-studio-code/issues"
+  },
+  	"publisher": "lighthaus-theme",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "galleryBanner": {
+      "color": "#21252D",
+      "theme": "dark"
+    },
+    "icon": "assets/lighthaus_icon_256.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+      "lighthaus",
+      "bright",
+      "dark",
+      "balances",
+      "contrast"
+    ],
+    "markdown": "github",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lighthaus",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lighthaus.json"
+            }
+        ]
+    },
+    "scrtips": {
+      "clean": "del *.vsix",
+      "package": "vsce package"
+    }
+}

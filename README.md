@@ -18,7 +18,7 @@ A [Lighthaus](https://github.com/lighthaus-theme/visual-studio-code) theme for [
 <p align="center"><img src="assets/vs-code-01.png"><p>
 <p align="center"><img src="assets/vs-code-02.png"><p>
 
-**For more screenshots of UI components, please check [this]() out.**
+**For more screenshots of UI components, please check [this](https://github.com/lighthaus-theme/visual-studio-code/blob/main/SCREENSHOTS.md) out.**
 
 ### Installation
 
